@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Caroline ALEXANDRE - Portfolio - Développeuse Web"
+    />
 
     <!--CSS Styles -->
+    
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <!-- Favicons -->
@@ -21,184 +26,548 @@
       href="assets/icons/favicon-32x32.png"
     />
 
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Jane Doe | Web Developer</title>
+    <title>Caroline ALEXANDRE | Développeuse Web</title>
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav>
-      <h1>JANE DOE</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
+    <nav role="navigation" aria-label="Menu principal">
+      <h1>CAROLINE ALEXANDRE</h1>
+      <ul id="menu">
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#skills" class="nav-link">Compétences</a></li>
+        <li><a href="#projects" class="nav-link">Projets</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      <button class="burger-menu" id="toggle" aria-expanded="false" aria-label="Menu">
+        <ion-icon class="bars" name="menu-outline" aria-hidden="true" focusable="false"></ion-icon>
         <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
     </nav>
-    
-    <p> 0024 </p>
 
     <!-- Hero Section -->
     <section class="hero" id="about">
       <img
-        src="assets/images/wfh_1.svg"
-        alt="jane-doe"
+        src="assets/images/profile-pic.webp"
+        alt="caroline alexandre"
         loading="lazy"
         class="hero-img"
       />
-      <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
-        </p>
+      <div class="bio">
+        <div>
+          <h2 class="bio-title">Développeuse Frontend</h2>
+          <p class="bio-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+            sed dolorem fugit sapiente porro veniam pariatur dolore nostrum
+            delectus inventore tempore minus nemo, iste ullam illo laboriosam
+            maiores repudiandae quos!
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- More about -->
     <section class="more-about">
-      <h2>More About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
-      </p>
+      <div class="more-about-txt">
+        <h2>More About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+          autem deleniti cupiditate molestias quis unde quae totam porro dicta
+          iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+          nostrum dolor minus, libero delectus praesentium perferendis
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+          consequuntur labore? Ea totam voluptas amet!
+        </p>
+      </div>
     </section>
 
     <!-- Skills section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <h2 class="skill-header">Mes compétences</h2>
 
       <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
+        <div>
           <img
             src="assets/icons/icons8-html-5.svg"
-            alt=""
+            alt="html5"
             loading="lazy"
             class="icon icon-card"
           />
           <img
             src="assets/icons/icons8-css3.svg"
-            alt=""
+            alt="css3"
             loading="lazy"
             class="icon icon-card"
           />
           <img
             src="assets/icons/icons8-javascript.svg"
-            alt=""
+            alt="javascript"
             loading="lazy"
             class="icon icon-card"
           />
         </div>
 
-        <div class="second-set animate__animated animate__pulse">
+        <div>
           <img
             src="assets/icons/icons8-bootstrap.svg"
-            alt=""
+            alt="bootstrap"
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-react-native.svg"
-            alt=""
+            src="assets/icons/icons8-vue-js.svg"
+            alt="vue"
             loading="lazy"
             class="icon icon-card"
           />
           <img
             src="assets/icons/icons8-git.svg"
-            alt=""
+            alt="git"
             loading="lazy"
             class="icon icon-card"
           />
         </div>
+
+        <div>
+          <img
+            src="assets/icons/icons8-mongodb.svg"
+            alt="mongo.db"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-mysql-logo.svg"
+            alt="mysql"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-nodejs.svg"
+            alt="node"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
       </div>
     </section>
 
     <!-- Projects section -->
     <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <h2 class="projects-title">Mes Projets</h2>
       <div class="projects-container">
-        <div class="project-container project-card">
+        <div class="project-container">
+          <img
+            src="assets/images/order-summary.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Order summary card</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/-Integration_maquette-_Order-summary-component-main" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/-Integration_maquette-_Order-summary-component-main/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <img
+            src="assets/images/stat-preview.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Stat preview card</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/-Integration_maquette-_Stats-preview-card-component-main" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/-Integration_maquette-_Stats-preview-card-component-main/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <img
+            src="assets/images/four-card.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Four card feature</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/-Integration_maquette-_Four_card_feature_section" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/-Integration_maquette-_Four_card_feature_section/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <img
+            src="assets/images/open-gym.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Open Gym</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/Site_OnePage_Open-Gym" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/Site_OnePage_Open-Gym/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <img
+            src="assets/images/rosa.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Restaurant Rosa</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/restaurant-rosa" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/restaurant-rosa/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <img
+            src="assets/images/yoga-shanti.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Yoga Shanti</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>BOOTSTRAP</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/Yoga-Shanti" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/Yoga-Shanti/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
           <img
             src="assets/images/expenseTracker.png"
             alt="expense-tracker"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Expense Tracker</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <div class="project-container-txt">
+            <h3 class="project-title">Groupomania</h3>
+            <div class="stack">
+              <ul>
+                <li>VUE/VUETIFY</li>
+                <li>NODE</li>
+                <li>EXPRESS</li>
+                <li>MYSQL</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/SENESCaroline_7_17062021" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a>
+            </div>
+          </div>
         </div>
-        <div class="project-container project-card">
+        <div class="project-container">
           <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
+            src="assets/images/sopekocko.png"
+            alt="expense-tracker"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <div class="project-container-txt">
+            <h3 class="project-title">So Pekocko</h3>
+            <div class="stack">
+              <ul>
+                <li>JS</li>
+                <li>API REST</li>
+                <li>MONGO DB</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/SENESCaroline_6_27052021" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a>
+            </div>
+          </div>
         </div>
-        <div class="project-container project-card">
+        <div class="project-container">
           <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
+            src="assets/images/orinoco.png"
+            alt="expense-tracker"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <div class="project-container-txt">
+            <h3 class="project-title">Orinoco</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+                <li>BOOTSTRAP</li>
+                <li>JS</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/SENESCaroline_5_17042021" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/SENESCaroline_5_17042021/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <img
+            src="assets/images/chouetteagence.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">La Chouette agence</h3>
+            <div class="stack">
+              <ul>
+                <li>SEO</li>
+                <li>Accessibilité</li>
+              </ul>
+            </div>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/SENESCaroline_4_07042021_optimize" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/SENESCaroline_4_07042021_optimize/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <img
+            src="assets/images/ohmyfood.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Ohmyfood!</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+              </ul>
+            </div>
+
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/SENESCaroline_3_17032021" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/SENESCaroline_3_17032021/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <img
+            src="assets/images/reservia.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <div class="project-container-txt">
+            <h3 class="project-title">Reservia</h3>
+            <div class="stack">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <div class="link">
+              <a href="https://github.com/CarolineSenes/SENESCaroline_2_13022021" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-github-1.svg" alt="" width="24" height="24"/>
+                GitHub</a
+              >
+              <a href="https://carolinesenes.github.io/SENESCaroline_2_13022021/" target="_blank" rel="noreferrer" class="project-link"
+                ><img src="./assets/icons/iconmonstr-globe-3.svg" alt="" width="24" height="24"/>
+                Démo</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Contact section -->
     <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
+      <h2>Contact</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylnggw" method="POST">
+          <form action="https://formspree.io/f/xjvjzlbd" method="POST">
             <div class="form-control">
-              <label for="name">Name</label>
+              <label for="name">Nom et Prénom</label>
               <input
                 type="text"
                 id="name"
                 name="sender-name"
-                placeholder="Enter Your Name"
+                placeholder="Tim BERNERS-LEE"
                 class="input-field"
                 required
               />
@@ -209,7 +578,7 @@
                 type="email"
                 id="email"
                 name="sender-email"
-                placeholder="Enter Your Email"
+                placeholder="timy@cern.com"
                 class="input-field"
                 required
               />
@@ -220,7 +589,7 @@
                 id="message"
                 cols="60"
                 rows="10"
-                placeholder="Enter Your Message"
+                placeholder="Votre message ici"
                 name="message"
                 class="input-field"
                 required
@@ -228,7 +597,7 @@
             </div>
             <input
               type="submit"
-              value="Submit"
+              value="Envoyer le formulaire"
               id="submit-btn"
               class="submit-btn"
             />
@@ -239,36 +608,45 @@
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-      <a href="#" target="_blank"
+      <a
+        href="https://twitter.com/senes_caroline"
+        target="_blank"
+        rel="noreferrer"
         ><img
-          src="assets/icons/icons8-twitter-circled.gif"
+          src="assets/icons/icons8-twitter-circled.svg"
           alt="Twitter"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <!-- <a href="#" target="_blank rel="noreferrer""
         ><img
-          src="assets/icons/icons8-instagram.gif"
+          src="assets/icons/icons8-instagram.svg"
           alt="Instagram"
           loading="lazy"
           class="socicon"
-      /></a>
-      <a href="#" target="_blank"
+      /></a> -->
+      <a
+        href="https://www.linkedin.com/in/carolinesenes/"
+        target="_blank"
+        rel="noreferrer"
         ><img
-          src="assets/icons/icons8-linkedin-circled.gif"
+          src="assets/icons/icons8-linkedin-circled.svg"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
-        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      <a
+        href="https://github.com/CarolineSenes"
+        target="_blank"
+        rel="noreferrer"
+        ><img src="assets/icons/icons8-github.svg" alt="Github" class="socicon"
       /></a>
     </div>
 
     <!-- Scroll to top -->
     <i class="scroll-up" id="scroll-up"
       ><img
-        src="assets/icons/icons8-upward-arrow.gif"
+        src="assets/icons/noun_up_762227.svg"
         class="socicon up-arrow"
         alt=""
     /></i>
@@ -278,8 +656,11 @@
       <p class="copy">&copy; Copyright 2021</p>
       <p class="copy">
         Built with &#x2661; by
-        <a href="https://twitter.com/koladechris" target="_blank"
-          >Kolade Chris (Ksound)</a
+        <a
+          href="https://twitter.com/koladechris"
+          target="_blank"
+          rel="noreferrer"
+          >Caroline ALEXANDRE</a
         >
       </p>
     </footer>
@@ -288,13 +669,13 @@
     <script src="assets/js/app.js"></script>
 
     <!-- Ion icons scripts -->
-    <script
+    <!-- <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
     <script
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    ></script> -->
   </body>
 </html>
