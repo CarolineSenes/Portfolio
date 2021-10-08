@@ -15,10 +15,7 @@
 
 ### The challenge
 
-The challenge is to build out this order summary card component and get it looking as close to the design as possible.
-Users should be able to:
-
-- See hover states for interactive elements
+Improve the accessibility and responsiveness of the original template to use it for my portfolio.
 
 ### Screenshot
 
@@ -39,6 +36,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Javascript
+- Webp images
 
 ### What I learned
 
@@ -63,9 +61,7 @@ Below are are list of tools used, and the precise things they were used for:
 - [Icon8](https://icons8.com/) for animated icons and skills icons
 - [Formspree](https://formspree.io/) for contact form submision and straight delivery to Gmail
 
-## Author
+## Repo origin
 
 [@koladechris](https://www.twitter.com/koladechris)
 This is the [link](https://github.com/Ksound22/developer-portfolio) to the original Github repo of the project
-
-## Acknowledgements
