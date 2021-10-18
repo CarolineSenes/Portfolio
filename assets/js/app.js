@@ -10,13 +10,13 @@ const scrollUp = document.querySelector("#scroll-up");
 const navLink = document.querySelectorAll(".nav-link");
 
 // Hamburger menu function
-toggle.addEventListener('click', function(){
-  if (menu.classList.contains('show')) {
-    this.setAttribute('aria-expanded', 'false');
-    menu.classList.remove('show');
+toggle.addEventListener("click", function () {
+  if (menu.classList.contains("show")) {
+    this.setAttribute("aria-expanded", "false");
+    menu.classList.remove("show");
   } else {
-    menu.classList.add('show'); 
-    this.setAttribute('aria-expanded', 'true');
+    menu.classList.add("show");
+    this.setAttribute("aria-expanded", "true");
   }
 });
 
