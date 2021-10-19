@@ -1,7 +1,7 @@
 
 # Portfolio
 
-Création de d'un site portfolio me présantant ainsi que les projets réalisés.
+Création d'un site portfolio me présantant ainsi que les projets réalisés.
 ## Screenshots
 
 ![desktop](https://github.com/CarolineSenes/Portfolio/blob/master/assets/images/screenshots/mockup_desktop.png)
