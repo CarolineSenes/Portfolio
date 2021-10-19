@@ -20,8 +20,8 @@ Création d'un site portfolio me présantant ainsi que les projets réalisés.
   
 ## Optimisations
 
+![lighthouse_desktop](https://github.com/CarolineSenes/Portfolio/blob/master/assets/images/screenshots/lighthouse_desktop.png)
 - Responsive mobile, tablette, desktop
-- Scores Lighthouse Desktop : ![lighthouse_desktop](https://github.com/CarolineSenes/Portfolio/blob/master/assets/images/screenshots/lighthouse_desktop.png)
 - Respect des nomes d'accessibilité AA
 - Conforme aux normes W3C
 ## Ce que j'ai appris
