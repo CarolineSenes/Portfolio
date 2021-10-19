@@ -1,67 +1,55 @@
-## Table of contents
 
-- [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-- [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-- [Author](#author)
+# Portfolio
 
-## Overview
+Création de d'un site portfolio me présantant ainsi que les projets réalisés.
+## Screenshots
 
-### The challenge
+![desktop](https://github.com/CarolineSenes/Portfolio/blob/master/assets/images/screenshots/mockup_desktop.png)
+![mobile](https://github.com/CarolineSenes/Portfolio/blob/master/assets/images/screenshots/mockup_mobile.png)
+## Tech Stack
 
-Improve the accessibility and responsiveness of the original template to use it for my portfolio.
+**Client:** HTML5, CSS3, Vanilla Javascript
 
-### Screenshot
+  
+## Fonctionnalités
 
-![Screenshot_desktop]()
-![Screenshot_mobile]()
+- Effets au survol
+- Animations au survol
+- Stylisation de la scrollbar
+- Formulaire de contact
+  
+## Optimisations
 
-### Links
+- Responsive mobile, tablette, desktop
+- Scores Lighthouse Desktop : ![lighthouse_desktop](https://github.com/CarolineSenes/Portfolio/blob/master/assets/images/screenshots/lighthouse_desktop.png)
+- Respect des nomes d'accessibilité AA
+- Conforme aux normes W3C
+## Ce que j'ai appris
 
-- Solution URL: [GitHub](https://github.com/CarolineSenes/Portfolio)
-- Live Site URL: [GitHub Pages](https://carolinesenes.github.io/Portfolio/)
+- Utilisation du format d'image .webp
+- Réaliser un menu "burger" accessible ([a11matters](https://www.a11ymatters.com/pattern/mobile-nav/))
+- Utilité du `rel="noreferrer"` avec `target="_blank"` ([MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Link_types/noreferrer))
+- Gestion de formulaire intégrée à Netlify ([Doc. Netlify](https://docs.netlify.com/forms/setup/?_ga=2.236939273.948881923.1634635235-2070872926.1628676737))
+## Démo du site
+[![Netlify Status](https://api.netlify.com/api/v1/badges/931c2f66-0e7c-459f-a520-699491c0e022/deploy-status)](https://app.netlify.com/sites/carolinealexandre/deploys)
 
-## My process
+```bash
+  https://carolinealexandre.netlify.app/
+```
 
-### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- Javascript
-- Webp images
 
-### What I learned
+  
+## Authors
 
-- Webp format
-- Menu burger accessibility
-- Add rel="noreferrer" with target="_blank" 
-- Formspree for using form with a static website
+- [Site web](https://carolinealexandre.netlify.app/) 
+- [Twitter](https://twitter.com/senes_caroline) 
+- [Linkedin](https://www.linkedin.com/in/carolinesenes/) 
+  
+## Ressources utilisées
 
-### Useful resource
-Menu burger accessibility: [a11matters](https://www.a11ymatters.com/pattern/mobile-nav/)
+ - [Colorable](https://colorable.jxnblk.com/aed44c/4e28b0) : trouver une palette de couleur conforme aux normes WCAG
+ - [Ion Icons](https://ionic.io/ionicons) : barres du menu hambuger
+ - [Icon8](https://icons8.com/) : icônes
 
-## Author
-
-- Website - [Caroline ALEXANDRE](https://github.com/CarolineSenes?tab=repositories)
-- Twitter - [@senes_caroline](https://twitter.com/senes_caroline)
-
-## Tools Used
-
-Below are are list of tools used, and the precise things they were used for:
-
-- [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
-- [Icon8](https://icons8.com/) for animated icons and skills icons
-- [Formspree](https://formspree.io/) for contact form submision and straight delivery to Gmail
-
-## Repo origin
-
-[@koladechris](https://www.twitter.com/koladechris)
-This is the [link](https://github.com/Ksound22/developer-portfolio) to the original Github repo of the project
+  
