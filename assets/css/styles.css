@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
 
 /* Variables */
 :root {
   --font-family: 'Poppins', Helvetica, Arial, sans-serf;
-  --font-family-stack: 'Space Mono', Helvetica, Arial, sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #4e28b0;
   --bg-color-element: #fefefe;
   --primary-color: #aed44c;
+  --stack-color: #6E6E6E;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 2rem;
   --line-height: 1.7rem;
@@ -52,18 +51,9 @@ a {
 }
 
 .stack{
-  font-family: var(--font-family-stack);
-  font-size: 0.9rem;
-  background-color: black;
-  border-radius: 11px;
-  margin-bottom: 1rem;
-}
-
-.stack ul{
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0.2rem;
-  color: white;
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  color: var(--stack-color)
 }
 
 body {
@@ -205,10 +195,6 @@ ion-icon{
   text-align: center;
 }
 
-.skills-wrapper{
-  margin-top: 3.5rem;
-}
-
 .skills-wrapper img {
   padding: 1.25rem;
 }
@@ -240,6 +226,7 @@ ion-icon{
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .project-container {
@@ -248,7 +235,6 @@ ion-icon{
   text-align: center;
   background-color: #fff;
   border-radius: 11px;
-  margin-top: 2.5rem;
   box-shadow: 0px 4px 3px hsla(0, 0%, 0%, .25), 16px 16px var(--primary-color);
   transition: background-color var(--transition) ease-in-out, transform var(--transition) ease-in-out, box-shadow var(--transition) ease-in-out;
 }
@@ -260,23 +246,19 @@ ion-icon{
   outline-offset: -3px;
 }
 
-.project-container img{
-  margin-right: 0.2rem;
-}
-
 .project-container a:hover{
   text-decoration: var(--bg-color) wavy underline;}
 
 .project-container-txt{
-  padding: 1rem 0.5rem;
-}
-
-.project-title {
-  margin-bottom: var(--bottom-margin);
+  padding: 1rem 1rem;
 }
 
 .project-details {
-  margin-bottom: var(--bottom-margin);
+  margin: var(--bottom-margin-2) 0;
+}
+
+.project-name{
+  font-weight: var(--bold-font);
 }
 
 .link{
@@ -391,6 +373,10 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
   color: var(--bg-color-element);
+}
+
+footer a{
+  color: var(--primary-color);
 }
 /* Footer section ends */
 
