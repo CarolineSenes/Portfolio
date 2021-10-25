@@ -180,7 +180,7 @@ ion-icon{
 .bio .see-cv, .bio .download-cv{
   background-color: var(--primary-color);
   border-radius: 25px;
-  padding: 0.3rem;
+  padding: 0.3rem 0.5rem;
 
 }
 
@@ -442,6 +442,15 @@ footer a{
 
   nav ul.show {
     transform: translateX(0);
+  }
+
+  .bio .cv{
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .bio .cv a{
+    text-align: center;
   }
 }
 
