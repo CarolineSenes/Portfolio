@@ -165,11 +165,30 @@ ion-icon{
   color: var(--primary-color);
 }
 
-.bio p {
+.bio p{
   line-height: var(--line-height);
   padding: 0.3rem 0;
   color: var(--bg-color-element);
 }
+
+.bio .cv{
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.bio .see-cv, .bio .download-cv{
+  background-color: var(--primary-color);
+  border-radius: 25px;
+  padding: 0.3rem;
+
+}
+
+.bio a:hover{
+  background-color: var(--bg-color-element);
+}
+
+
 /* Hero section ends */
 
 /* More about */
@@ -247,7 +266,8 @@ ion-icon{
 }
 
 .project-container a:hover{
-  text-decoration: var(--bg-color) wavy underline;}
+  text-decoration: var(--bg-color) wavy underline;
+}
 
 .project-container-txt{
   padding: 1rem 1rem;
